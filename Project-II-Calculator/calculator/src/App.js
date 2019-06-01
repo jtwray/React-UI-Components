@@ -9,15 +9,12 @@ const App = () => {
   return (
     <div>
       <h3>Welcome to React Calculator</h3>
-      <ActionButton/>
-      <NumberButton/>
       <Display/>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+      <div className="calccontainer">      
+      <NumberButton/>
+      <ActionButton/>
+      </div>
+      
     </div>
   );
 };
