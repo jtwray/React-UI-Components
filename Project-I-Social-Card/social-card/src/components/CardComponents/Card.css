@@ -13,6 +13,9 @@
 .CardContainer>a{
     text-decoration: none;
 }
+.CardContent{
+    color:#222222;
+}
 
 .CardBanner{
     max-width: 100%;

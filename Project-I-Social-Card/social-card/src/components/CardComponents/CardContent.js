@@ -3,7 +3,7 @@ import "./Card.css";
 
 function CardContent() {
   return (
-    <div>
+    <div className="CardContent">
       <h3>Get started with React</h3>
       <p>
         React makes it painlesss to create interactive UIs. Design simple views
